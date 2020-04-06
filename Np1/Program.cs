@@ -61,13 +61,14 @@ namespace ConsoleApp2
                                 if (Zahal[i][k][0] == Zahal[j][l][0] && Zahal[i][k][1] == Zahal[j][l][1])
                                 {
                                     flag = false;
+                                    break;
                                 }
                             }
                         }
                     }
                 }
 
-                if (!flag)
+                if (flag)
                 {
                     mas.Add(Zahal[i]);
                 }
@@ -348,7 +349,7 @@ namespace ConsoleApp2
                 Console.WriteLine();
                 Console.WriteLine("----------------------------------");
             }
-
+            //айййй
 
             Console.WriteLine();
             Console.WriteLine("----------------------------------");
