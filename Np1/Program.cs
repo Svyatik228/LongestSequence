@@ -349,7 +349,7 @@ namespace ConsoleApp2
                 Console.WriteLine();
                 Console.WriteLine("----------------------------------");
             }
-            //айййй
+            
 
             Console.WriteLine();
             Console.WriteLine("----------------------------------");
